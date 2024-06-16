@@ -1,2 +1,643 @@
-<p>Hello
-</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+    
+</head>
+<style>
+    * {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+
+    display: flex;
+    color: #032d60;
+    margin: 15px;
+
+}
+
+.text:hover {
+
+    color: #b5d6ff;
+}
+
+#contactdetails {
+    font-weight: lighter;
+    margin-left: 40px;
+}
+
+#header {
+    font-size: 16px;
+    font-weight: bold;
+    background: white;
+    justify-content: space-around;
+    height: 96px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+#fakeheader {
+    height: 10%;
+    width: 100%;
+
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#page2 {
+    height: 90%;
+    width: 100%;
+    background-color: lightblue;
+}
+
+#logo {
+    height: 70%;
+    margin: 10px;
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.icon:hover {
+    background-color: lightblue;
+}
+
+.icon {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#login:hover {
+
+    background-color: lightblue;
+}
+
+#login {
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+}
+
+#try:hover {
+    background-color: #1c3326;
+
+}
+
+#try {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: green;
+}
+
+.glob:hover {
+    background-color: lightblue;
+}
+
+.glob {
+    border-radius: 50%;
+
+    padding: 10px;
+}
+
+#Strip {
+    margin-top: 42px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    justify-content: center;
+    height: 48px;
+    background-color: #032d60;
+    width: 100%;
+
+}
+
+#content {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 480px;
+}
+
+#Heading {
+    width: 100%;
+    height: 80px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#Heading h1 {
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+#box1 {
+    height: 95%;
+    width: 47%;
+}
+
+#box1 h1 {
+    color: #031610;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 30px 30px;
+}
+
+#box1 p {
+    margin: 30px 30px;
+    margin: 20px;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+#btns {
+    display: flex;
+}
+
+#btn1 {
+    margin: 10px;
+    text-align: center;
+    width: 23%;
+    padding: 10px 20px;
+    background: #0176D3;
+    color: white;
+    border-radius: 5px;
+}
+
+#btn1:hover {
+    background-color: #032d60;
+}
+
+#btn2 {
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    width: 23%;
+    padding: 10px 20px;
+    border: 2px solid #0176D3;
+}
+
+#btn2:hover {
+    border: 2px solid black;
+    color: black;
+    background-color: rgb(231, 241, 245);
+}
+
+#box2 {
+    height: 479px;
+    width: 558px;
+    background-image: url(box2img12.jpg);
+    background-size: cover;
+}
+
+#box2a {
+    height: 269px;
+    width: 489px;
+    margin: 55px 53px 86px 30px;
+    border-radius: 15px;
+}
+
+#video {
+    height: 288px;
+    border-radius: 15px;
+    width: 502px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: none;
+
+}
+
+
+#page2 {
+    background-color: rgb(252, 253, 255);
+    width: 100%;
+    /* align-items: center; */
+    background-image: url(businiss\ background.webp);
+   orphans: .2;
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: normal;
+
+}
+
+#box4 {
+    margin: 80px;
+    font-family: "Boogaloo", sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+#small {
+    height: 360px;
+    width: 245px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* margin: 2%; */
+    border-radius: 15px;
+    /* border: 1px solid red; */
+}
+
+#sales {
+    height: 360px;
+    width: 245px;
+    border-radius: 15px;
+    /* margin: 2%; */
+    background-color: white;
+
+    /* border: 1px solid red; */
+}
+
+#services {
+    height: 360px;
+    width: 245px;
+    border-radius: 15px;
+    /* margin: 2%; */
+    background-color: white;
+
+    /* border: 1px solid red; */
+}
+
+#marketing {
+    height: 360px;
+    width: 245px;
+    border-radius: 15px;
+    /* margin: 2%; */
+    background-color: white;
+
+    /* border: 1px solid red; */
+}
+
+#subsmall {
+
+    /* text-align: center; */
+    border-radius: 15px;
+    height: 200px;
+    width: 279px;
+    /* border: 1px solid red; */
+}
+
+#subsmall h1 {
+    font-size: larger;
+
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: "Boogaloo", sans-serif;
+
+
+}
+
+#subsmall p {
+
+    margin: 20px 30px 0px 30px;
+    font-size: 16px;
+}
+#subsmall h3{
+
+text-decoration: underline;
+margin-left: 30px;
+
+}
+#subsmall h3:hover{
+color: rgb(32, 101, 144);
+text-decoration: none;
+
+}
+#subsales {
+    height: 200px;
+    width: 279px;
+    border-radius: 15px;
+
+    /* text-align: center; */
+    /* border: 1px solid red; */
+
+}
+
+#subsales h1 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: "Boogaloo", sans-serif;
+    font-size: larger;
+
+}
+
+#subsales p {
+
+    margin: 20px 30px 0px 30px;
+
+
+    font-size: 16px;
+}
+
+#subsales h3{
+    text-decoration: underline;  
+    margin-left: 30px;
+}
+#subsales h3:hover{
+color: rgb(32, 101, 144);
+text-decoration: none;
+
+}
+
+#subservices {
+    height: 200px;
+    width: 279px;
+    border-radius: 15px;
+
+    /* text-align: center; */
+    /* border: 1px solid red; */
+
+}
+
+
+#subservices h1 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: "Boogaloo", sans-serif;
+    font-size: larger;
+
+}
+
+#subservices p {
+
+    margin: 20px 30px 0px 30px;
+
+    font-size: 16px;
+}
+
+#subservices h3{
+    margin-left: 30px;
+    text-decoration: underline;
+
+}
+#subservices h3:hover{
+    color: rgb(32, 101, 144);
+    text-decoration: none;
+}
+
+#submarketing {
+    height: 200px;
+    width: 279px;
+    /* text-align: center; */
+    border-radius: 15px;
+
+
+    /* border: 1px solid red; */
+}
+
+#submarketing h1 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: larger;
+
+    font-family: "Boogaloo", sans-serif;
+}
+
+
+#submarketing p {
+
+    margin: 20px 30px 0px 30px;
+
+    font-size: 16px;
+}
+#submarketing h3{
+    margin-left: 30px;
+    text-decoration: underline;
+
+}
+#submarketing h3:hover{
+    color: rgb(32, 101, 144);
+    text-decoration: none;
+
+}
+
+#subsmall img {
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+    height: 150px;
+    width: 245px;
+    /* border: 1px solid red; */
+}
+
+#subsales img {
+    height: 150px;
+    width: 245px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+#subservices img {
+    height: 150px;
+    width: 245px;
+
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+#submarketing img {
+    height: 150px;
+    width: 245px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+#box5{display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items:top;
+    /* border: 2px solid red; */
+}
+/* #page3{
+    border-radius: 5px;
+    height: 54px;
+    width: 304px;
+    border: 2px solid #0176D3;
+} */
+
+button{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    color: #0176D3;
+    font-size: larger;
+    font-weight:bold;
+    border: 2px solid #0176D3;
+    border-radius: 5px;
+    /* background-color: white; */
+    margin-top: 5px;
+    }
+    button:hover{
+        background-color:rgb(231, 241, 245) ;
+        color: rgb(15, 42, 60);
+        border: 2px solid rgb(15, 42, 60);
+    }
+ 
+</style>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="logo">
+                <img src="https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-with-type-logo.svg" width="100px"
+                    height="100px">
+            </div>
+            <div class="text">
+                <p>Products</p>
+            </div>
+            <div class="text">
+                <p>Industries</p>
+            </div>
+            <div class="text">
+                <p>Customers</p>
+            </div>
+            <div class="text">
+                <p>Learning</p>
+            </div>
+            <div class="text">
+                <p>Support</p>
+            </div>
+            <div class="text">
+                <p>More</p>
+                <p><i class="ri-arrow-down-s-line"></i></p>
+
+            </div>
+            <div id="contactdetails" style="text-align: center;">
+                <p><u>Contact Us</u></p>
+                <p><u>1800-1200-0000</u></p>
+            </div>
+            <div class="icon"><i class="ri-search-line"></i></div>
+            <div class="glob"><i class="ri-global-line"></i></div>
+
+            <div id="login"><i class="ri-user-3-fill"></i>Login</div>
+            <div id="try">Try For Free</div>
+        </div>
+        <div id="fakeheader"></div>
+        <div id="page1">
+            <div id="Strip">
+                <p>JUST ANNOUNCED: See why Gartner® recognised Salesforce as a Leader in Customer Data Platforms.
+                    <u>Read the report</u>
+                </p>
+
+            </div>
+            <div id="content">
+                <div id="box1">
+                    <h1>Try Salesforce Starter Suite for free.</h1>
+                    <p>Unite marketing, sales, and service in a single app. Try Salesforce Starter Suite today. There's
+                        nothing to install. No credit card required.
+                    </p>
+                    <div id="btns">
+                        <div id="btn1">Start free trial</div>
+                        <div id="btn2">
+                            Watch demo
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="box2">
+                    <div id="box2a"><iframe id="video"
+                            src="https://play.vidyard.com/EPhLojrTKLFGqAWw9ECW23?disable_popouts=1&type=…de_playlist=0&hide_html5_playlist=0&viral_sharing=0&name_overlay=0&v=4.3.3"></iframe>
+                    </div>
+
+                </div>
+            </div>
+            <div id="Heading">
+                <h1>Learn what Salesforce products can do for you.</h1>
+            </div>
+        </div>
+        <div id="page2">
+            <div id="box4">
+
+                <div id="small">
+                    <div id="subsmall"><img src="small business.webp" alt=""><h1>Small Business</h1>
+                    <p>Sales, service, and email outreach tools in a single app.</p>
+                    <br>
+                    <br>
+                <h3>Learn more</h3></div>
+                </div>
+                <div id="sales">
+                    <div id="subsales"><img src="salescloud.webp" alt="">
+                    <h1>Sales Cloud</h1>
+                <p>Close more deals and speed up growth with the #1 CRM.</p>
+                <br>
+                <br>
+            <h3>Learn more</h3></div>
+                </div>
+                <div id="services">
+                    <div id="subservices"><img src="servicecloud.webp" alt="">
+                    <h1>Service Cloud</h1>
+                <p>Make customers happy faster and build loyalty with Service Cloud.</p>
+                <br>
+                
+                <h3>Learn more</h3></div>
+                </div>
+                <div id="marketing">
+                    <div id="submarketing"><img src="marketingcloud.webp" alt="">
+                   <h1> Marketing Cloud</h1>
+                <p>
+                    Build customer relationships for life with data-first digital marketing.
+                </p>
+                <br>
+                
+            <h3>Learn more</h3>
+            </div>
+                </div>
+
+            </div>
+           
+            </div>
+<div id="box5">
+            <div id="page3">
+             <button >
+            View all products
+               </button>
+            </div>
+</body>
+
+</html>
